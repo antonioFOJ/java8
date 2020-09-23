@@ -8,6 +8,6 @@ public class Endpoint {
 
     @GetMapping
     public String versao(){
-        return System.getProperty("java.runtime.version - Após WEBHOOK DO ANTONIO");
+        return System.getProperty("java.runtime.version") + "WEBHOOK ANTONIO";
     }
 }
